@@ -1,0 +1,372 @@
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-end {
+    display: flex;
+    justify-content: end;
+}
+
+header {
+    background: white;
+    color: black;
+    padding: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+    height: 50px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.button-white {
+    background: #ffffff;
+    border: 1px solid #d4d4d8;
+    border-radius: 10px;
+
+    color: #021412;
+}
+
+.button-black {
+    background: black;
+    border: 1px solid #d4d4d8;
+    border-radius: 10px;
+
+    color: white;
+}
+
+.registration {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 160px;
+}
+
+.half {
+    width: 50%;
+}
+
+.registration-big-font {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 3.2px;
+}
+
+.main-font {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+main {
+    justify-content: space-around;
+
+    padding-left: 56px;
+    padding-top: 0px;
+    padding-right: 56px;
+    padding-bottom: 0px;
+}
+
+.main-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 220px;
+}
+
+.product {
+    border: 1px solid #e4e4e7;
+    border-radius: 0px 0px 120px 0px;
+    width: 40%;
+    height: 513px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #021412;
+}
+
+.product-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+
+    width: 50%;
+    margin-left: 20%;
+}
+
+.product-button {
+    margin-left: 20%;
+}
+
+.product-right-side {
+    border-radius: 0px 120px 0px 0px;
+}
+
+.product-font-label {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 45px;
+    letter-spacing: 1.5px;
+}
+
+.quote {
+    justify-content: space-evenly;
+    padding-bottom: 250px;
+}
+
+.image-quote {
+    border-radius: 0px 72px;
+    padding-right: 72px;
+}
+
+.bg-image-quote {
+    background-image: url(styles\img\bg-quote.svg);
+    width: 90px;
+    height: 70px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+div#bg-quote {
+    position: relative;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 240px;
+}
+
+.line-block-info {
+    background: #e4e4e7;
+    width: 100%;
+    height: 1px;
+}
+
+.quote-text-image {
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    width: 100%;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #021412;
+}
+
+.quote-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 1.2px;
+    color: #021412;
+}
+
+.quote-text-sign {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+
+    color: #71717a;
+}
+
+.info-big-font {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 2.4px;
+    color: #021412;
+    margin-right: 10%;
+}
+
+.info-font {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 36px;
+    letter-spacing: 1.2px;
+    color: #021412;
+}
+
+.info-small-font {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #021412;
+    margin-bottom: 10%;
+}
+
+.info-block {
+    margin-top: 5.5%;
+}
+
+.pricing {
+    width: 100%;
+    margin-bottom: 161px;
+}
+
+.subs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 55px;
+}
+
+.sub {
+    width: 400px;
+    height: 731px;
+}
+
+.button-sub {
+    width: 80%;
+}
+
+.price-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-label-font {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #021412;
+}
+
+.sub-price-font {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+}
+
+.sub-duration {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(2, 20, 18, 0.5);
+}
+
+.sub-icon {
+    margin-right: 8px;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.features-label-font {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(2, 20, 18, 0.5);
+}
+
+.sub-font {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.sub-middle {
+    background: #f1f5f9;
+    border-radius: 0px 80px;
+}
+
+@media (max-width: 790px) {
+    .info-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
