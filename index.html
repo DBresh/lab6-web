@@ -11,20 +11,35 @@
     </head>
     <body>
         <header>
-            <div class="logo-margin">
+            <div>
                 <img src="styles\img\logo.svg" alt="logo" />
             </div>
-            <div>
+            <div style="margin-top: 7px;">
                 <nav>
                     <ul>
                         <li><a href="#">Features</a></li>
                         <li><a href="#">Affiliate</a></li>
                         <li><a href="#">Referral</a></li>
                         <li><a href="#">Pricing</a></li>
-                        <li><button class="button-white">Log In</button></li>
-                        <li><button class="button-black">Sign Up</button></li>
+                        <li><button class="button-white" style="width: 95px; height: 50px;">Log In</button></li>
+                        <li><button class="button-black" style="width: 103px; height: 50px;">Sign Up</button></li>
                     </ul>
                 </nav>
+                <div class="burger-menu">
+                    <input id="menu-toggle" type="checkbox">
+                    <label class="menu-btn" for="menu-toggle">
+                      <span></span>
+                    </label>
+                 
+                    <ul class="menubox">
+                            <li><a class="menu-item" href="#">Log In</a></li>
+                            <li><a class="menu-item" href="#">Sign Up</a></li>
+                            <li><a class="menu-item" href="#">Features</a></li>
+                            <li><a class="menu-item" href="#">Affiliate</a></li>
+                            <li><a class="menu-item" href="#">Referral</a></li>
+                            <li><a class="menu-item" href="#">Pricing</a></li>
+                    </ul>
+                </div>
             </div>
         </header>
 
@@ -45,7 +60,7 @@
                             </p>
                         </div>
                         <div>
-                            <button class="button-black main-font">Sign up now</button>
+                            <button class="button-black main-font" style="width: 150px;">Sign up now</button>
                         </div>
 
                     </div>
@@ -125,8 +140,8 @@
 
             <section class="pricing">
                 <div class="price-label">
-                    <div><p>Pricing</p></div>
-                    <div><p>We believe pricing should be straightforward, fair and grow with your business. No limits on transactions, number of partners, or revenue.</p></div>
+                    <div><p class="pricing-label">Pricing</p></div>
+                    <div><p class="main-font" style="color: #021412;">We believe pricing should be straightforward, fair and grow with your business. No limits on transactions, number of partners, or revenue.</p></div>
                 </div>
 
                 <div class="subs">
@@ -268,9 +283,9 @@
                 </div>
 
                 <div class="flex-row align-center jc-center">
-                    <div><p>Full pricing plan comparison</p></div>
                     <div>
-                        <img src="" alt="arrow">
+                        <p style="color: #021412;" class="main-font">Full pricing plan comparison</p></div>
+                        <a href="#"><img src="styles/img/arrow.svg" alt="arrow" style="margin-left: 10px; padding-top: 5px;"></a>
                     </div>
                 </div>
             </section>
@@ -278,55 +293,65 @@
             <section>
                 <div class="trial trial-big-font">
                     <p>Start your free 60-day trial today</p>
-                    <button class="button-black main-font">Sign up</button>
+                    <button class="button-black main-font button-trial">Sign up</button>
                 </div>
             </section>
         </main>
         
         <footer>
-            <div class="footer-links">
-                <div class="flex-row">
-                    <div class="half">
+            <div class="">
+                <div class="flex-row footer-main-part">
+                    <div class="subcribe footer-half">
                         <div><img src="styles/img/logo.svg" alt="logo"></div>
-                        <div><p>Partnership programs tailor-made for your business</p></div>
+                        <div><p class="quote-text-sign">Partnership programs tailor-made for your business</p></div>
+                        <!-- сбить везде одинаковый колор в отедльный класс -->
                         <div class="flex-row">
-                            <input type="email" id="email">
-                            <button class="button-black">Subscribe</button>
-                        </div>
-                        <div class="flex-ro">
-                            <p>Subscribe for product updates. For more details, review our <a href="#">Privacy Policy.</a></p>
+                            <input type="email" id="email" class="footer-input">
+                            <button class="button-black footer-button">Subscribe</button>
                         </div>
                         <div class="flex-row">
-                            <a href="#"><img src="" alt="logo-linkedin"></a>
-                            <a href="#"><img src="" alt="logo-twitter"></a>
+                            <p class="footer-font">Subscribe for product updates. For more details, review our <a href="#" class="footer-font">Privacy Policy.</a></p>
+                        </div>
+                        <div class="flex-row">
+                            <a href="#" class="footer-icons"><img src="styles/img/footer/linkedin.svg" alt="logo-linkedin"></a>
+                            <a href="#"><img src="styles/img/footer/twitter.svg" alt="logo-twitter"></a>
                         </div>
                     </div>
-                    <div class="flex-row half">
-                        <div>
-                            <p>Product</p>
-                            <p>Features</p>
-                            <p>Affiliate</p>
-                            <p>Partner portal</p>
-                            <p>Referral</p>
-                            <p>Pricing</p>
+                    <div class="flex-row links-container footer-half">
+                        <div class="footer-links ">
+                            <p class="footer-font t-t-uppercase">Product</p>
+                            <p><a class="footer-text-links" href="#">Features</a></p>
+                            <p><a class="footer-text-links" href="#">Affiliate</a></p>
+                            <p><a class="footer-text-links" href="#">Partner portal</a></p>
+                            <p><a class="footer-text-links" href="#">Referral</a></p>
+                            <p><a class="footer-text-links" href="#">Pricing</a></p>
                         </div>
-                        <div>
-                            <p>Company</p>
-                            <p>About</p>
-                            <p>Contact us</p>
-                            <p>Become a partner</p>
-                            <p>Terms & Policies</p>
+                        <div class="footer-links ">
+                            <p class="footer-font t-t-uppercase">Company</p>
+                            <p><a class="footer-text-links" href="#">About</a></p>
+                            <p><a class="footer-text-links" href="#">Contact us</a></p>
+                            <p><a class="footer-text-links" href="#">Become a partner</a></p>
+                            <p><a class="footer-text-links" href="#">Terms & Policies</a></p>
                         </div>
-                        <div>
-                            <p>Resources</p>
-                            <p>Integrations</p>
-                            <p>Knowledge base</p>
-                            <p>Developers API</p>
+                        <div class="footer-links">
+                            <p class="footer-font t-t-uppercase">Resources</p>
+                            <p><a class="footer-text-links" href="#">Integrations</a></p>
+                            <p><a class="footer-text-links" href="#">Knowledge base</a></p>
+                            <p><a class="footer-text-links" href="#">Developers API</a></p>
                         </div>
                     </div>
                 </div>
+                <div class="line-block-info"></div>
             </div>
-            <div class="footer-copyright"></div>
+            <div class="footer-copyright">
+                <div class="flex-row footer-main-part">
+                    <div><p>© 2023 Partnero. All rights reserved.</p></div>
+                    <div class="flex-row align-center">
+                        <img src="styles/img/footer/some-logo.svg" alt="some-logo">
+                        <p style="margin-left: 8px;" class="company-font">We're part of The Remote Company</p>
+                    </div>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
