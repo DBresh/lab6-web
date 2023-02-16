@@ -90,6 +90,7 @@ nav a {
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
+    color: #021412;
 }
 
 main {
@@ -124,13 +125,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #021412;
 }
 
 .product-text {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
     font-size: 19px;
     line-height: 30px;
 
@@ -151,9 +148,6 @@ main {
 }
 
 .product-font-label {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
     font-size: 23px;
     line-height: 45px;
     letter-spacing: 1.5px;
@@ -198,28 +192,17 @@ div#bg-quote {
     left: 5%;
     width: 100%;
 
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
     font-size: 30px;
     line-height: 45px;
-    color: #021412;
 }
 
 .quote-text {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 36px;
     letter-spacing: 1.2px;
-    color: #021412;
 }
 
 .quote-text-sign {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
     font-size: 17px;
     line-height: 27px;
 
@@ -227,34 +210,22 @@ div#bg-quote {
 }
 
 .info-big-font {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
     font-size: 48px;
     line-height: 48px;
     letter-spacing: 2.4px;
-    color: #021412;
     margin-right: 10%;
 }
 
 .info-font {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
     font-size: 19px;
     line-height: 36px;
     letter-spacing: 1.2px;
-    color: #021412;
     margin-right: 10px;
 }
 
 .info-small-font {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-    color: #021412;
     margin-bottom: 10%;
 }
 
@@ -301,32 +272,21 @@ div#bg-quote {
 .price-label {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .sub-label-font {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
     font-size: 19px;
     line-height: 30px;
-    color: #021412;
 }
 
 .sub-price-font {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
     font-size: 48px;
     line-height: 72px;
-    color: #000000;
 }
 
 .sub-duration {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
     font-size: 19px;
     line-height: 30px;
     color: rgba(2, 20, 18, 0.5);
@@ -341,21 +301,14 @@ div#bg-quote {
 }
 
 .features-label-font {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     color: rgba(2, 20, 18, 0.5);
 }
 
 .sub-font {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    color: #000000;
 }
 
 .jc-center {
@@ -543,7 +496,7 @@ footer {
     display: block;
     padding: 12px 24px;
     color: #333;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter';
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
