@@ -96,12 +96,7 @@ nav a {
 main {
     justify-content: space-around;
 
-    padding-left: 56px;
-    padding-top: 0px;
-    padding-right: 56px;
-    padding-bottom: 0px;
-
-    /* использовать один падинг */
+    padding: 0px 56px 0px 56px;
 }
 
 .main-img {
@@ -342,12 +337,7 @@ div#bg-quote {
 }
 
 footer {
-    padding-left: 56px;
-    padding-top: 80px;
-    padding-right: 56px;
-    padding-bottom: 0px;
-
-    /* использовать 1 паддинг */
+    padding: 80px 56px 0px 56px;
 }
 
 .subcribe {
@@ -421,9 +411,7 @@ footer {
 }
 
 .footer-copyright {
-    padding-top: 68px;
-    padding-bottom: 83px;
-    /* использовать один паддинг */
+    padding: 68px 0px 83px 0px;
 }
 
 .links-container{
@@ -649,8 +637,7 @@ footer {
     }
 
     .footer-links {
-        margin-right: 0px;
-        margin-left: 10px;
+        margin: 0px 0px 0px 10px;
     }
 }
 
@@ -743,8 +730,7 @@ footer {
     }
 
     .info-big-font {
-        margin-top: 80px;
-        margin-bottom: 20px;
+        margin: 80px 0px 20px;
         font-size: 24px;
         line-height: 35px;
         letter-spacing: 1px;
