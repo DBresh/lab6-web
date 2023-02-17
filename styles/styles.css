@@ -792,6 +792,10 @@ footer {
         border-radius: 0px 80px;
     }
     
+    .image-quote {
+        width: 100%;
+    }
+
     .footer-input {
         width: 70%;
     }
