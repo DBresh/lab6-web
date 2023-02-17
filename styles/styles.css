@@ -515,8 +515,12 @@ footer {
     left: 0;
   }
 
+  #menu-toggle:checked ~ .animate-text{
+    visibility: hidden;
+  }
+
   .burger-menu{
-    height: 85px;
+    height: 90px;
     display: none;
   }
 
@@ -787,7 +791,7 @@ footer {
         width: 100%;
         border-radius: 0px 80px;
     }
-
+    
     .footer-input {
         width: 70%;
     }
@@ -803,5 +807,8 @@ footer {
     footer {
         padding: 0px;
     }
-
+    
+    .sub {
+        height: 700px;
+    }
 }
