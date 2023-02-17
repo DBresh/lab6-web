@@ -532,6 +532,24 @@ footer {
     display: none;
   }
 
+  .animate-text {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
   @media (max-width: 857px) {
     nav {
         display: none;
