@@ -659,9 +659,18 @@ footer {
         font-size: 19px;
         width: 30%;
     }    
+
+    .sub {
+        width: 90%;
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 486px) {
+    .image-quote {
+        padding: 0px;
+    }
+    
     .trial {
         border-radius: 90px 0px;
     }
@@ -687,9 +696,7 @@ footer {
         height: auto;
         border-radius: 0px 0px 70px 0px;
     }
-}
 
-@media (max-width: 486px) {
     header {
         padding: 28px;
     }
@@ -772,4 +779,29 @@ footer {
     .footer-button {
         width: 30%;
     }
+}
+
+
+@media (max-width: 386px) {
+    .sub {
+        width: 100%;
+        border-radius: 0px 80px;
+    }
+
+    .footer-input {
+        width: 70%;
+    }
+
+    header {
+        padding: 14px;
+    }
+
+    main {
+        padding: 14px;
+    }
+
+    footer {
+        padding: 0px;
+    }
+
 }
